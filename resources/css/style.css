@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    color:#f2f2f2b7 ;
+    font-family: 'Cairo', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+.row {
+    max-width: 1140px;
+    margin:0px auto;
+}
+
+header {
+    background-image: linear-gradient(to top, #06080dcc, #10141bcc, #151c27cc, #182533cc, #1a2e40cc), url(../imgs/banner2.jpg);
+    height: 100vh;
+    background-size: cover;
+}
+
+h1 {
+    margin: 0%;
+}
+h2{
+    margin-bottom: 40px;
+}
+
+
+.interface{
+    widows: 1140px;
+    position: absolute;
+    top: 35%;
+    right: 50%;
+    transform: translate(50%,0%);
+}
+
+.btn:link,
+.btn:visited{
+    display: inline-block;
+    padding: 5px 5px;
+    text-decoration: none;
+    background-color: #1b8ef293;
+    color: #f2f2f2d2;
+    margin-bottom: 20px;
+    margin-left: 7px;
+    border-radius: 5px;
+}
+
+.btn:hover,
+.btn:active{
+    background-color: #f2f2f281;
+    
+}
+.more:link,
+.more:visited {
+    display: inline-block;
+    padding: 5px 5px;
+    text-decoration: none;
+    border: 3px solid #1b8ef293;
+    color: #f2f2f2d2;
+    margin-bottom: 20px;
+    margin-left: 7px;
+    border-radius: 5px;
+    font-size: 80%;
+}
+.more:hover,
+.more:active{
+    border: 3px solid #f2f2f281;
+    color: #1b8ef293 ;
+}
+.aiche{
+    width: 150px;
+    height: 150px;
+    border-radius: 600px;
+    position:absolute ;
+    top: 12px;
+    left: 12px;
+}
+
